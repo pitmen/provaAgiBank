@@ -11,6 +11,7 @@ describe('Pesquisa', () => {
       homePage.visitarPagina()
       
     });
+    
     it('Então deve aparecer o seguinte resultado válido', () => {
       homePage.realizarPesquisa(mensagemPesquisa)
       homePage.mensagem.deveConterOTexto(mensagemValida)
