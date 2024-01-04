@@ -31,7 +31,7 @@ e por fim:
 
 ```bash
 npx cypress open
-
+```
 
 ## Exercício proposto pela AgiBank 
 
